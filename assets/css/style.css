@@ -1,0 +1,204 @@
+header {
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 10px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: cadetblue;
+}
+h1  {
+    background-color: lightblue;
+    width: 16%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.links {
+    float: right;
+    margin-top: 45px;
+    margin-right: 150px;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+a, a:visited {
+    color: white;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: purple;
+}
+.aboutme {
+    margin: 80px;
+    padding: 50px;
+    border-color: lightgrey;
+    background-color:lightblue;
+    height: 725px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 20px;
+}
+#aboutheader {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#myphoto {
+    width: 290px;
+    height: 330px;
+}
+p {
+    line-height: 38px;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#paragraph1 {
+    float: right;
+    width: 75%;
+    line-height: 55px;
+}
+#paragraph2, #paragraph3 {
+    width: 100%;
+}
+.contact {
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: grey;
+    width: 600px;
+}
+#contacthead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-color: grey;
+    padding: 10px;
+}
+.contactp {
+    margin-bottom: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+input {
+    width: 200px;
+}
+#Comments {
+    height: 80px;
+}
+#submit {
+    background-color: lightblue;
+}
+#submit:hover {
+    background-color:rgb(0, 162, 255);
+}
+.portfolio {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+.portimg {
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+.portimg:hover {
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 5px;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .aboutme {
+        width: 600px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #paragraph1 {
+        width: 300px;
+        height: 20px;
+        line-height: 22px;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .aboutme {
+        width: 450px;
+    }
+
+    #myphoto {
+        width: 125px;
+        height: 150px;
+    }
+
+    #paragraph1 {
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    .links {
+        right: -70px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .aboutme {
+        width: 300px;
+    }
+
+    #myphoto {
+        width: 120px;
+        height: 150px;
+        float: left;
+    }
+
+    p {
+        font-size: 10px;
+        line-height: 28px;
+        float: left;
+    }
+
+    #paragraph1 {
+        font-size: 8px;
+        line-height: 10px;
+        float: right;
+        width: 160px;
+    }
+
+    .contact {
+        width: 400px;
+    }
+
+    .contactp {
+        float: none;
+        line-height: 20px;
+    }
+
+    .links {
+        right: -100px;
+    }
+
+    h1 {
+        margin-left: 0;
+    }
+}
